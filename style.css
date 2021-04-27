@@ -1,0 +1,38 @@
+body {
+    background: black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.timer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.credit {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
