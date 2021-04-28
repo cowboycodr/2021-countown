@@ -13,4 +13,14 @@ function updateTime() {
     var seconds = Math.floor((timeBetween % (1000 * 60)) / 1000);
   
     document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+    console.log(timeBetween);
+
+    if (timeBetween <= 0) {
+        clearInterval(x);
+
+        var letsgoAudio = document.getElementById("lets-go-audio");
+
+        letsgoAudio.play();
+    }
 }
