@@ -70,12 +70,21 @@ document.onkeydown = function(e) {
 
         pauseAll();
         aliaintroAudio.play();
+    } else if (key == 6) {
+        var homedepotAudio = document.getElementById("home-depot-audio");
+
+        pauseAll();
+        homedepotAudio.play();
+    } else if (key == 7) {
+        var redrobinAudio = document.getElementById("red-robin-audio");
+
+        pauseAll();
+        redrobinAudio.play();
     } else if (key == "`") {
         pauseAll();
     } else if (key == "Control") {
         playAll();
     }
-
 
     if (key == " ") {
         var canvasFeature = 
