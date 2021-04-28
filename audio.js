@@ -43,8 +43,6 @@ function clickBody() {
 document.onkeydown = function(e) {
     var key = e.key;
 
-    console.log(key);
-
     if (key == 1) {
         var fortniteAudio = document.getElementById("fortnite-audio");
 
