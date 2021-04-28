@@ -1,6 +1,6 @@
 function clickBody() {
     var audio = document.getElementById("audio");
-    if (audio.duration > 0 && !audio.paused) {
+    if (!audio.paused) {
         audio.pause();
     } else {
         audio.play();
