@@ -132,5 +132,15 @@ document.onkeydown = function(e) {
             "https://www.youtube.com/channel/UCCjJKcnCwtDbBteSHvBorNA",
             "blank_"
         );
+    } else if (key == "d") {
+        var googledocs = window.open(
+            "https://docs.google.com/document/u/0/",
+            "blank_"
+        );
+    } else if (key == "w") {
+        var wikipedia = window.open(
+            "https://www.wikipedia.org/",
+            "blank_"
+        );
     }
 } 
