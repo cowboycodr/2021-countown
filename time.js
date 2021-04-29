@@ -14,8 +14,6 @@ function updateTime() {
   
     document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
-    console.log(timeBetween);
-
     if (timeBetween <= 0) {
         clearInterval(x);
 
