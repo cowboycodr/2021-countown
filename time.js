@@ -1,6 +1,6 @@
 var countDownDate = new Date("May 27, 2021, 15:45:00").getTime();
 
-var x = setInterval(updateTime, 5)
+var x = setInterval(updateTime, 1000)
 
 function updateTime() {
     var now = new Date().getTime();
