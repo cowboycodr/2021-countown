@@ -157,4 +157,5 @@ document.onkeydown = function(e) {
             "https://www.youtube.com/channel/UCazqcgrJntZYewFogdS_VIA",
             "blank_"
         );
+    }
 } 
