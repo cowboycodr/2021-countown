@@ -127,5 +127,9 @@ document.onkeydown = function(e) {
             "blank_",
             bigideasFeature
         )
+    } else if (key == "g") {
+        var bigideas = window.open(
+            "https://www.youtube.com/channel/UCCjJKcnCwtDbBteSHvBorNA",
+            "blank_"
     }
 } 
