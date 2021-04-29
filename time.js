@@ -12,8 +12,11 @@ function updateTime() {
     var minutes = Math.floor((timeBetween % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeBetween % (1000 * 60)) / 1000);
   
+    var output = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    
     document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
+    document.title = "Countdown | " + output;
+    
     if (timeBetween <= 0) {
         clearInterval(x);
 
