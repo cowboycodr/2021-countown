@@ -93,7 +93,6 @@ document.onkeydown = function(e) {
         
         pauseAll();
         mozartAudio.play();
-    }
     } else if (key == "`") {
         pauseAll();
     } else if (key == "Control") {
