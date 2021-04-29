@@ -157,5 +157,10 @@ document.onkeydown = function(e) {
             "https://www.youtube.com/channel/UCazqcgrJntZYewFogdS_VIA",
             "blank_"
         );
+    } else if (key == "c") {
+        var chicfila = window.open(
+            "https://www.google.com/maps/search/chick-fil-a/",
+            "blank_"
+        )
     }
 } 
