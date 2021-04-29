@@ -95,6 +95,8 @@ document.onkeydown = function(e) {
     }
 
     if (key == " ") {
+        pauseAll();
+        
         var canvasFeature = 
             "location=no,toolbar=no,menubar=no,scrollbar=yes,resizable=yes,width="+screen.availWidth+",height="+screen.availHeight;
 
