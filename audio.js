@@ -88,11 +88,6 @@ document.onkeydown = function(e) {
 
         pauseAll();
         redrobinAudio.play();
-    } else if (key == "c") {
-        var mozartAudio = document.getElemnentById("mozart-audio");
-        
-        pauseAll();
-        mozartAudio.play();
     } else if (key == "`") {
         pauseAll();
     } else if (key == "Control") {
