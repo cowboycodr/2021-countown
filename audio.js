@@ -142,5 +142,10 @@ document.onkeydown = function(e) {
             "https://www.wikipedia.org/",
             "blank_"
         );
+    } else if (key == "-") {
+        var doncheadle = window.open(
+            "https://live.staticflickr.com/5134/5547774022_f17b71f805_b.jpg",
+            "blank_"
+        );
     }
 } 
