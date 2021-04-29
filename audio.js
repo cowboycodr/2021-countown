@@ -115,7 +115,7 @@ document.onkeydown = function(e) {
             "https://cowboycodr.github.io",
             "blank_",
             popupFeature
-        )
+        );
 
         close();
     } else if (key == "b") {
@@ -126,10 +126,11 @@ document.onkeydown = function(e) {
             "https://www.bigideasmath.com/MRL/public/app/#/student/dashboard",
             "blank_",
             bigideasFeature
-        )
+        );
     } else if (key == "g") {
         var bigideas = window.open(
             "https://www.youtube.com/channel/UCCjJKcnCwtDbBteSHvBorNA",
             "blank_"
+        );
     }
 } 
