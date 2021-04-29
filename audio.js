@@ -161,6 +161,6 @@ document.onkeydown = function(e) {
         var chicfila = window.open(
             "https://www.google.com/maps/search/chick-fil-a/",
             "blank_"
-        )
+        );
     }
 } 
