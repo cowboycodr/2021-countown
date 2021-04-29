@@ -21,7 +21,8 @@ function updateTime() {
         clearInterval(x);
 
         var letsgoAudio = document.getElementById("lets-go-audio");
-
+        document.getElementById("timer").innerHTML = "FREEDOM";
+        
         letsgoAudio.play();
     }
 }
