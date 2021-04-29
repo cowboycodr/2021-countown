@@ -152,7 +152,7 @@ document.onkeydown = function(e) {
             "https://www.google.com/search?q=snake&rlz=1C5CHFA_enUS862US869&oq=snake&aqs=chrome.0.69i59j0i433j46i433j46i131i433j0i271l2.655j0j7&sourceid=chrome&ie=UTF-8&safe=active&surl=1&tbs=li:1",
             "blank_"
         );
-    } else if (key == 'r') {
+    } else if (key == "r") {
         var danman64 = window.open(
             "https://www.youtube.com/channel/UCazqcgrJntZYewFogdS_VIA",
             "blank_"
