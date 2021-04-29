@@ -118,5 +118,14 @@ document.onkeydown = function(e) {
         )
 
         close();
+    } else if (key == "b") {
+        var bigideasFeature =
+            "location=no,toolbar=no,menubar=no,scrollbar=yes,resizable=yes,width="+screen.availWidth+",height="+screen.availHeight;
+        
+        var bigideas = window.open(
+            "https://www.bigideasmath.com/MRL/public/app/#/student/dashboard",
+            "blank_",
+            bigideasFeature
+        )
     }
 } 
