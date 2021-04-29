@@ -5,6 +5,8 @@ function pauseAll() {
     var yeayeaAudio = document.getElementById("yea-yea-audio");
     var windowserrorAudio = document.getElementById("windows-error-audio");
     var aliaintroAudio = document.getElementById("alia-intro-audio");
+    var homedepotAudio = document.getElementById("home-depot-audio");
+    var redrobinAudio = document.getElementById("red-robin-audio");
 
     minecraftAudio.pause();
     fortniteAudio.pause();
@@ -12,6 +14,8 @@ function pauseAll() {
     yeayeaAudio.pause();
     windowserrorAudio.pause();
     aliaintroAudio.pause();
+    homedepotAudio.pause();
+    redrobinAudio.pause();
 }
 
 function playAll() {
@@ -21,6 +25,8 @@ function playAll() {
     var yeayeaAudio = document.getElementById("yea-yea-audio");
     var windowserrorAudio = document.getElementById("windows-error-audio");
     var aliaintroAudio = document.getElementById("alia-intro-audio");
+    var homedepotAudio = document.getElementById("home-depot-audio");
+    var redrobinAudio = document.getElementById("red-robin-audio");
 
     minecraftAudio.play();
     fortniteAudio.play();
@@ -28,6 +34,8 @@ function playAll() {
     yeayeaAudio.play();
     windowserrorAudio.play();
     aliaintroAudio.play();
+    homedepotAudio.play();
+    redrobinAudio.play();
 }
 
 function clickBody() {
