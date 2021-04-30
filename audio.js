@@ -7,6 +7,10 @@ function pauseAll() {
     var aliaintroAudio = document.getElementById("alia-intro-audio");
     var homedepotAudio = document.getElementById("home-depot-audio");
     var redrobinAudio = document.getElementById("red-robin-audio");
+    var sheeshAudio = document.getElementById("sheesh-audio");
+    var tobecontinuedAudio = document.getElementById("to-be-continued-audio");
+    var fortnitedeathsoundAudio = document.getElementById("fortnite-death-sound-audio");
+    var mozartAudio = document.getElementById("mozart-audio");
 
     minecraftAudio.pause();
     fortniteAudio.pause();
@@ -16,6 +20,10 @@ function pauseAll() {
     aliaintroAudio.pause();
     homedepotAudio.pause();
     redrobinAudio.pause();
+    sheeshAudio.pause();
+    tobecontinuedAudio.pause();
+    fortnitedeathsoundAudio.pause();
+    mozartAudio.pause();
 }
 
 function playAll() {
@@ -27,6 +35,10 @@ function playAll() {
     var aliaintroAudio = document.getElementById("alia-intro-audio");
     var homedepotAudio = document.getElementById("home-depot-audio");
     var redrobinAudio = document.getElementById("red-robin-audio");
+    var sheeshAudio = document.getElementById("sheesh-audio");
+    var tobecontinuedAudio = document.getElementById("to-be-continued-audio");
+    var fortnitedeathsoundAudio = document.getElementById("fortnite-death-sound-audio");
+    var mozartAudio = document.getElementById("mozart-audio");
 
     minecraftAudio.play();
     fortniteAudio.play();
@@ -36,6 +48,10 @@ function playAll() {
     aliaintroAudio.play();
     homedepotAudio.play();
     redrobinAudio.play();
+    sheeshAudio.play();
+    tobecontinuedAudio.play();
+    fortnitedeathsoundAudio.play();
+    mozartAudio.play();
 }
 
 function clickBody() {
@@ -92,6 +108,26 @@ document.onkeydown = function(e) {
         pauseAll();
     } else if (key == "Control") {
         playAll();
+    } else if (key == 8) {
+        var sheeshAudio = document.getElementById("sheesh-audio");
+
+        pauseAll();
+        sheeshAudio.play();
+    } else if (key == 9) {
+        var tobecontinued = document.getElementById("to-be-continued-audio");
+
+        pauseAll();
+        tobecontinued.play();
+    } else if (key == 0) {
+        var fortnitedeathsoundAudio = document.getElementById("fortnite-death-sound-audio");
+
+        pauseAll();
+        fortnitedeathsoundAudio.play();
+    } else if (key == "m") {
+        var mozartAudio = document.getElementById("mozart-audio");
+
+        pauseAll();
+        mozartAudio.play();
     }
 
     if (key == " ") {
