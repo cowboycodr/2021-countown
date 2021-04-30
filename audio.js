@@ -138,8 +138,7 @@ document.onkeydown = function(e) {
 
         var canvas = window.open(
             "https://smsd.instructure.com",
-            "_blank",
-            canvasFeature
+            "_blank"
         );
 
         console.log(canvasFeature);
@@ -149,8 +148,7 @@ document.onkeydown = function(e) {
 
         var popupCountdown = window.open(
             "https://cowboycodr.github.io",
-            "blank_",
-            popupFeature
+            "blank_"
         );
 
         close();
@@ -160,11 +158,10 @@ document.onkeydown = function(e) {
         
         var bigideas = window.open(
             "https://www.bigideasmath.com/MRL/public/app/#/student/dashboard",
-            "blank_",
-            bigideasFeature
+            "blank_"
         );
     } else if (key == "g") {
-        var bigideas = window.open(
+        var glowflixglower = window.open(
             "https://www.youtube.com/channel/UCCjJKcnCwtDbBteSHvBorNA",
             "blank_"
         );
