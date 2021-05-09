@@ -1,63 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="clock.png">
     <title>Countdown</title>
-    <script src="audio.js"></script>
 </head>
-<body onclick="clickBody();">
-    <div class="header">
-        <p class="description">time left of school</p>
-    </div>
-    <div class="countdown">
-        <p class="timer" id="timer">0d 0h 0m 0s</p>
-        <script src="time.js"></script>
-    </div>
-    <div class="footer">
-        <div class="credit">
-            <p>created by Kian McKenna</p>
-    </div>
-    <audio id="minecraft-audio" loop>
-        <source src="resources/audio/Volume Alpha 08. Minecraft.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="fortnite-audio">
-        <source src="resources/audio/fortnite-dance-moves-emote-music-tv9iv8cxmo0-1.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="lets-go-audio">
-        <source src="resources/audio/vibez-lets-go.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="yea-yea-audio">
-        <source src="resources/audio/70ebc1e0-8184-4039-bdbd-94758297a835.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="windows-error-audio">
-        <source src="resources/audio/erro.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="alia-intro-audio">
-        <source src="resources/audio/ali-as-meme-intro-original-download.mp3">
-    </audio>
-    <audio id="home-depot-audio">
-        <source src="resources/audio/home-depot-theme2.mp3">
-    </audio>
-    <audio id="red-robin-audio">
-        <source src="resources/audio/red-robin-yum-from-youtube.mp3">
-    </audio>
-    <audio id="sheesh-audio">
-        <source src="resources/audio/original-sheesh.mp3">
-    </audio>
-    <audio id="to-be-continued-audio">
-        <source src="resources/audio/to-be-continued.mp3">
-    </audio>
-    <audio id="fortnite-death-sound-audio">
-        <source src="resources/audio/fortnite-death-sound.mp3">
-    </audio>
-    <audio id="mozart-audio">
-        <source src="resources/audio/Mozart - Serenade in G Major.mp3">
-    </audio>
+<body>
+    <script src="total_countdown.js"></script>
+    <script src="day_countdown.js"></script>
+     <div class="header">
+        <div class="links">
+            <a href="index.html" class="link active-link">Home</a>
+            <a href="keybindings.html" class="link">Keybindings</a>
+        </div>
+        <div class="author">
+            KIAN MCKENNA
+        </div>
+     </div>
+     <div class="content">
+        <div class="total-countdown-description">
+            time left of school
+        </div>
+        <div class="total-countdown" id="total-countdown">
+            0d 0h 0m 0s
+        </div>
+        <div class="day-countdown" id="day-countdown">
+            0h 0m 0s
+        </div>
+     </div>
+     <div class="footer">
+     </div>
 </body>
 </html>
-
-<!-- Click ctrl with volume -->

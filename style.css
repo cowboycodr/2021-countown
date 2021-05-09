@@ -1,32 +1,17 @@
-body { 
-  height: 1vh;
-  width: 99%;
-  left:0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 1800% 1800%;
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+  
+    animation: rainbow 18s ease infinite;
+}
 
-  -webkit-animation: rainbow 26s ease infinite;
-  animation: rainbow 26s ease infinite;
-  }
-
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
 @keyframes rainbow { 
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
@@ -35,38 +20,54 @@ body {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
 }
 
-.description {
+.content {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
-.countdown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+.total-countdown-description {
+    text-align: center;
 }
 
-.timer {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.total-countdown {
     font-size: 100px;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: auto;
+.day-countdown {
+    text-align: center;
+    font-size: 30px;
 }
 
-.credit {
-    display: flex;
+.link {
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-style: transparent;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    align-items: center;
+}
+
+.link:hover {
+    border-bottom: solid;
+}
+
+.active-link {
+    border-bottom: solid;
+}
+
+.author {
+    color: white;
+    border-style: transparent;
+    padding: 10px;
+}
+
+.author:hover {
+    border-right: solid;
 }
