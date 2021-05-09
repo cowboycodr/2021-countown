@@ -1,6 +1,5 @@
 body, html {
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
     left:0;
     right: 0;
     top: 0;
@@ -39,6 +38,24 @@ body, html {
 
 .total-countdown {
     font-size: 100px;
+}
+
+.keybinds-countdown {
+    color: white;
+}
+
+.keybinds-total-countdown {
+    font-size: 45px;
+    justify-content: center;
+}
+
+.keybinds-day-countdown {
+    font-size: 20px;
+    text-align: center;
+}
+
+.keybinds-list {
+    font-size: 16px;
 }
 
 .day-countdown {

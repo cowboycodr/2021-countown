@@ -7,21 +7,32 @@
 </head>
 <body>
     <script src="audio.js"></script>
+    <script src="js/total_countdown.js"></script>
+    <script src="js/day_countdown.js"></script>
      <div class="header">
         <div class="links">
             <a href="index.html" class="link">Home</a>
             <a href="keybindings.html" class="link active-link">Keybindings</a>
         </div>
+        <div class="keybinds-countdown">
+            <div class="keybinds-total-countdown" id="total-countdown">
+                0d 0h 0m 0s
+            </div>
+            <div class="keybinds-day-countdown" id="day-countdown">
+                0h 0m 0s
+            </div>
+        </div>
         <div class="author">
             KIAN MCKENNA
         </div>
      </div>
-     <div class="content" style="font-size: 33px">
-        .
+     <div class="content">
+        <div class="keybinds-list" id="keybinds-list">
+            <script src="js/keybinds_list.js"></script>
+        </div>
      </div>
      </div>
      <div class="footer">
      </div>
-     <script>alert("Coming soon...");</script>
 </body>
 </html>
