@@ -11,21 +11,31 @@ var audio  = {
     0 : new Audio("resources/audio/fortnite-death-sound.mp3"),
 };
 
-digits = [
-    '0',
-    '1',
-    '2',
-    '3',
-    '4',
-    '5',
-    '6',
-    '7',
-    '8',
-    '9'
-]
+digits = ['0','1','2','3','4','5','6','7','8','9']
+
+function pauseAll() {
+    for (let key in audio) {
+        audio[key].pause();
+    }
+}
+
+function playAll() {
+    for (let key in audio) {
+        audio[key].play();
+    }
+}
+
+function resetAll() {
+    for (let key in audio) {
+        audio[key].currentTime = 0;
+    }
+}
 
 document.addEventListener("keydown", function(e) {
     var key = e.key;
+    pauseAll();
+
+    console.log(key);
 
     if (key in digits) {
 
@@ -36,5 +46,11 @@ document.addEventListener("keydown", function(e) {
         } else {
             currentAudio.pause();
         }
+    } else if (key == "Control") {
+        playAll();
+    } else if (key == "~") {
+        pauseAll();
+    } else if (key == "Tab") {
+        resetAll();
     }
 });

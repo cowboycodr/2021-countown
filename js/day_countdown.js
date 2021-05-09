@@ -4,7 +4,7 @@ function pad(num) {
 
 var x = setInterval(function() {
     var start = new Date;
-    start.setHours(15, 45, 0); // 11pm
+    start.setHours(15, 45, -1); // 11pm
   
     var now = new Date;
     if (now > start) { // too late, go to tomorrow
