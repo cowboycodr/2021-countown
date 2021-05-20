@@ -24,4 +24,4 @@ var x = setInterval(function() {
         clearInterval(x)
         document.getElementById("total-countdown").innerHTML = "SCHOOL's OUT!";
     }
-}, 200);
+}, 1000);
