@@ -35,7 +35,7 @@ document.addEventListener("keydown", function(e) {
     var key = e.key;
     pauseAll();
 
-    console.log(key);
+//     console.log(key);
 
     if (key in digits) {
 
