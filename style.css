@@ -83,6 +83,7 @@ body, html {
     color: white;
     border-style: transparent;
     padding: 10px;
+    transition:all 0.5s;
 }
 
 .author:hover {
